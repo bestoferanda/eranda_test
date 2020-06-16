@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, View ,Text} from 'react-native';
+import { StyleSheet, View, Text } from 'react-native';
 
 
 const SignIn = () => {
@@ -12,15 +12,16 @@ const SignIn = () => {
 
 const styles = StyleSheet.create({
     signView: {
-        padding  : 10,
-        justifyContent : 'center',
-        alignItems : 'center'
+        padding: 10,
 
     },
     textStyle: {
         fontSize: 30,
-        color: 'black'
-    }
+        color: 'black',
+        textAlign: 'center',
+        paddingBottom : 10
+    },
+
 });
 
 export default SignIn;
